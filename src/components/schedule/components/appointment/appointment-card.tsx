@@ -257,13 +257,13 @@ export function AppointmentCard({
                 const x = (rect.left + rect.width / 2) / window.innerWidth;
                 const y = (rect.top + rect.height / 2) / window.innerHeight;
                 
-                confetti({
-                  particleCount: 100,
-                  spread: 70,
-                  origin: { x, y },
-                  colors: ['#10b981', '#34d399', '#059669', '#fbbf24', '#f59e0b'],
-                  zIndex: 1000
-                });
+                // confetti({
+                //   particleCount: 100,
+                //   spread: 70,
+                //   origin: { x, y },
+                //   colors: ['#10b981', '#34d399', '#059669', '#fbbf24', '#f59e0b'],
+                //   zIndex: 1000
+                // });
               }}
             >
               <CheckCircle2 className="w-4 h-4 text-slate-400" />
