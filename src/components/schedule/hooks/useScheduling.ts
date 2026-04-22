@@ -14,7 +14,7 @@ import { ptBR } from "date-fns/locale";
 import { useEffect } from "react";
 
 import { patientPool, quickCreateSlots } from "@/lib/mock-data";
-import { buildDateTime, cn } from "@/lib/utils";
+// import { buildDateTime, cn } from "@/lib/utils";
 import { useSchedulingStore } from "@/components/schedule/store/scheduling-store";
 import type { Appointment } from "@/types/scheduling";
 
@@ -57,7 +57,7 @@ export function useScheduling() {
   const filteredAppointments = appointments
     .filter((appointment) => (filters.status === "Todos" ? true : appointment.status === filters.status))
     .filter((appointment) => (filters.type === "Todos" ? true : appointment.type === filters.type))
-    .sort((first, second) => buildDateTime(first.date, first.time).getTime() - buildDateTime(second.date, second.time).getTime());
+    // .sort((first, second) => buildDateTime(first.date, first.time).getTime() - buildDateTime(second.date, second.time).getTime());
 
   const selectedDateAppointments = filteredAppointments.filter((appointment) =>
     isSameDay(parseISO(appointment.date), selectedDate),
