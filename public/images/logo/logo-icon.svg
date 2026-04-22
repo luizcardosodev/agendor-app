@@ -1,0 +1,11 @@
+<svg width="46" height="46" viewBox="0 0 46 46" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Medix — ícone</title>
+  <desc>Ícone de cruz médica estilizada do sistema Medix</desc>
+
+  <rect x="0" y="0" width="46" height="46" rx="12" fill="#2563EB"/>
+  <rect x="9" y="16" width="28" height="8" rx="2.5" fill="white"/>
+  <rect x="19" y="6" width="8" height="28" rx="2.5" fill="white"/>
+  <circle cx="12" cy="41" r="1.8" fill="white" opacity="0.7"/>
+  <circle cx="23" cy="41" r="1.8" fill="white" opacity="0.7"/>
+  <circle cx="34" cy="41" r="1.8" fill="white" opacity="0.7"/>
+</svg>

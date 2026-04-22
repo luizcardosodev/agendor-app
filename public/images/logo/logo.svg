@@ -1,0 +1,32 @@
+<svg width="220" height="46" viewBox="0 0 220 46" role="img" xmlns="http://www.w3.org/2000/svg">
+  <title>Medix — logo do sistema de agendamento</title>
+  <desc>Logo Medix maior com ícone de cruz médica estilizada e nome em texto colorido</desc>
+
+  <style>
+    .logo-text {
+      font-family: system-ui, sans-serif;
+      font-weight: 500;
+      font-size: 26px;
+      letter-spacing: -0.4px;
+    }
+    .logo-sub {
+      font-family: system-ui, sans-serif;
+      font-weight: 400;
+      font-size: 9px;
+      fill: #888;
+      letter-spacing: 1.6px;
+    }
+  </style>
+
+  <rect x="0" y="5" width="36" height="36" rx="9" fill="#2563EB"/>
+  <rect x="7" y="16" width="22" height="7" rx="2" fill="white"/>
+  <rect x="16" y="7" width="7" height="22" rx="2" fill="white"/>
+  <circle cx="9.5" cy="34.5" r="1.7" fill="white" opacity="0.7"/>
+  <circle cx="18" cy="34.5" r="1.7" fill="white" opacity="0.7"/>
+  <circle cx="26.5" cy="34.5" r="1.7" fill="white" opacity="0.7"/>
+
+  <text x="46" y="32" class="logo-text" fill="#1e293b">medi</text>
+  <text x="106" y="32" class="logo-text" fill="#2563EB" font-weight="700">x</text>
+
+  <text x="46" y="43" class="logo-sub">AGENDAMENTO</text>
+</svg>
