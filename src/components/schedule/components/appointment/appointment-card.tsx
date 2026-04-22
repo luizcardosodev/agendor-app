@@ -4,7 +4,6 @@ import { useDraggable } from "@dnd-kit/core";
 import { motion } from "framer-motion";
 import { useState, useEffect } from "react";
 import { createPortal } from "react-dom";
-import confetti from "canvas-confetti";
 import { Check, Clock, CheckCircle2, XCircle } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { useAgendaStore } from "@/components/schedule/store/agenda-store";
